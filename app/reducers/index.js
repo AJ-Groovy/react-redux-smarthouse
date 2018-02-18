@@ -1,8 +1,10 @@
-import deviceReducer from './deviceReducer';
+import tvReducer from './tvReducer';
+import climateReducer from './climateReducer';
 import { combineReducers } from 'redux';
 
 const reducers = combineReducers({
-    devices : deviceReducer
+    tv: tvReducer,
+    climate: climateReducer
 })
 
 export default reducers
