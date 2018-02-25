@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {turnOn, turnOff, addDevice} from '../actions';
-import TV from '../components/tv';
+import TV from '../components/deviceAbstract';
 
 const mapStateToProps = (state) => {
     return {

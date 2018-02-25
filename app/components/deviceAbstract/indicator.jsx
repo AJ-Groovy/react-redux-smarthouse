@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class indicator extends Component {
+class indicator extends React.Component {
     
     constructor(props){
         super(props);    
