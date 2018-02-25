@@ -1,4 +1,4 @@
-import defaultState from './defaultState';
+    import defaultState from './defaultState';
 
 const climateReducer = (state = defaultState.devices.climate, action) => {
     switch (action.type) {
