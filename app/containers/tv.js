@@ -1,11 +1,12 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {turnOn, turnOff, addDevice} from '../actions';
-import TV from '../components/deviceAbstract';
+import Devices from '../components/deviceWrapper/index.jsx';
 
 const mapStateToProps = (state) => {
+    console.log(state)
     return {
-        tv: state.tv
+        devices: state
     }
 }
 
@@ -17,6 +18,6 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-const TvContainer = connect(mapStateToProps, mapDispatchToProps)(TV)
+const TvContainer = connect(mapStateToProps, mapDispatchToProps)(Devices)
 
 export default TvContainer;

@@ -5,12 +5,14 @@ const defaultState = {
                 {
                     id: 'iddqd1',
                     type: 'tv',
-                    settings: '123'
+                    settings: '123',
+                    enabled: false
                 },
                 {
                     id: 'iddqd2',
                     type: 'tv',
-                    settings: '1123'
+                    settings: '1123',
+                    enabled: true
                 },
             ]
         },
@@ -19,7 +21,8 @@ const defaultState = {
                 {
                     id: 'iddqd12',
                     type: 'climate',
-                    settings: '1231'
+                    settings: '1231',
+                    enabled: true
                 },
             ]
         },
